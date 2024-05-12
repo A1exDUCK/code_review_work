@@ -4,27 +4,27 @@ class CalculatorTest {
     Calculator Calculator = new Calculator();
 
     @Test
-    void additional_add() {
-        assertEquals(10, Calculator.add(5, 5));
+    void additional_addnamek1305() {
+        assertEquals(10, Calculator.addnamek1305(5, 5));
     }
 
     @Test
-    void additional_subtract() {
-        assertEquals(2, Calculator.dif(8, 6));
+    void additional_subtractnamek1305() {
+        assertEquals(2, Calculator.difnamek1305(8, 6));
     }
 
     @Test
-    void additional_division() {
-        assertEquals(0, Calculator.div(16, 0));
+    void additional_divisionnamek1305() {
+        assertEquals(0, Calculator.divnamek1305(16, 0));
     }
 
     @Test
-    void additional_multiplication() {
-        assertEquals(3, Calculator.times(-3, -1));
+    void additional_multiplicationnamek1305() {
+        assertEquals(3, Calculator.timesnamek1305(-3, -1));
     }
     @Test
-    void additional_solver() {
-        assertEquals(4, Calculator.solver(10, 2));
+    void additional_solvernamek1305() {
+        assertEquals(4, Calculator.solvernamek1305(10, 2));
 
     }
 }
