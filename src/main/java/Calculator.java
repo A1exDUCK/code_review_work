@@ -1,17 +1,14 @@
 public class Calculator {
-    public int add(int a, int b){
-        //TODO inser your realisation in method add
+    public static int add(int a, int b){
+        return a+b;
     }
-    public int dif(int a, int b){
-        //TODO inser your realisation in method dif
-    }
-    public int div(int a, int b){
-        //TODO inser your realisation in method div
-    }
-    public int times(int a, int b){
-        //TODO inser your realisation in method times
-    }
-    public int solver(){
-        //TODO inser your realisation in method solver
+    public static int dif(int a, int b){
+        return a-b;}
+    public static int div(int a, int b){
+        return a/b;}
+    public static int times(int a, int b){
+        return a*b;}
+    public static int solver(int a,int b){
+    return add(a,b)/2;
     }
 }
