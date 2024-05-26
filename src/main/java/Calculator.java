@@ -7,7 +7,7 @@ public class Calculator {
     }
     public static int div(int a, int b){
         if (b == 0) {
-            System.out.println("Zero in div"); //123
+            System.out.println("Zero in div");
             return 1;
         }
         return a/b;
